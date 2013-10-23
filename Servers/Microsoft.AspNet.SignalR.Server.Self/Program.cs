@@ -8,7 +8,7 @@ namespace Microsoft.AspNet.SignalR.Server.Self
     {
         static void Main(string[] args)
         {
-            using (WebApp.Start<Startup>("http://localhost:28155/"))
+            using (WebApplication.Start<Startup>("http://localhost:28155/"))
             {
                 Console.WriteLine("Server running at http://localhost:28155/");
                 Console.ReadLine();
